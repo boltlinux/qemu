@@ -1,1 +1,2 @@
 mremap-efault-on-stack-guard.diff
+fix-mremap-result-range-check.patch

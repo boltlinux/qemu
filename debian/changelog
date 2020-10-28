@@ -1,9 +1,15 @@
+qemu (1:5.1.0-1bolt2) unstable; urgency=medium
+
+  * Add patch to fix mremap result range check in target address space.
+
+ -- Tobias Koch <tobias.koch@gmail.com>  Wed, 28 Oct 2020 22:48:47 +0100
+
 qemu (1:5.1.0-1bolt1) unstable; urgency=medium
 
   * Upgrade to upstream v5.1.0
   * Package only static qemu-user binaries
 
- -- Tobias Koch <tobias.koch@arculus.de>  Mon, 19 Oct 2020 09:44:19 +0300
+ -- Tobias Koch <tobias.koch@gmail.com>  Mon, 19 Oct 2020 09:44:19 +0300
 
 qemu (1:4.2-3ubuntu6.6) focal-security; urgency=medium
 
